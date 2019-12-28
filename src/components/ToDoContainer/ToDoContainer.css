@@ -1,0 +1,58 @@
+.main-area {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-input {
+  font-size: 14px;
+  padding: 4px;
+  flex: 1;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-add,
+.btn-clear,
+.btn-sort {
+  font-size: 14px;
+  width: 80px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  min-width: 80px;
+  color: white;
+}
+
+.btn-add {
+  margin: 0 5px 0 10px;
+  background-color: green;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-sort {
+  margin: 0 5px 0 10px;
+  background-color: rgb(22, 28, 102);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.priority-block {
+  display: flex;
+  margin-right: 20px;
+}
+
+.select {
+  background: darkcyan;
+  color: #fff;
+  border-color: transparent;
+}
+
+.btn-clear {
+  margin: 0 0 0 5px;
+  background-color: #555555;
+}

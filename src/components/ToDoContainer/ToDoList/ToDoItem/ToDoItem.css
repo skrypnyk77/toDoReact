@@ -1,0 +1,72 @@
+.list-item {
+  padding: 10px;
+  border-radius: 2px;
+  margin: 5px auto;
+  word-break: break-word;
+  text-align: left;
+  background: rgb(228, 227, 176);
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.done {
+  background: lightgray;
+}
+
+.done .toDo {
+  text-decoration: line-through;
+}
+
+.toDo {
+  display: block;
+  width: 200px;
+}
+
+.list-item::before {
+  counter-increment: list;
+  content: counter(list) ". ";
+  margin-right: 20px;
+}
+
+.small-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeble {
+  border: none;
+  border-radius: 2px;
+  background: blueviolet;
+}
+
+.btn-remove-by-one {
+  color: #fff;
+  font-weight: 800;
+  margin-left: 20px;
+  border-radius: 16px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: red;
+}
+
+.settings-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.settings-block .editToDo {
+  background: darkred;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.edit-block input {
+  border: 4px;
+  padding: 4px;
+}
